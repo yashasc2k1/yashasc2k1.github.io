@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="toDoStyle.css">
+</head>
+<body>
+    <div class="title-container">
+        <p class="title">To-Do List</p>
+    </div>
+    
+
+    <div class="todo-input-grid">
+        <input type="text" placeholder="Enter task..." class="js-name-input name-input">
+        <input type="date" class="js-due-date-input due-date-input" placeholder="yyyy-dd-mm" id="">
+        <button onclick="addToDo();" class="add-todo-button">Add</button>
+    </div>
+    <div class="js-tasks tasks-grid">
+        // Here's where all the data is generated
+    </div>
+    <script src="toDo.js"></script>
+</body>
+</html>
