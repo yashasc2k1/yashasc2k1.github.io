@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Solver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sudoku Solver</h1>
+    <div class="container">
+        <div class="solve-button-container">
+            <a href="#" class="button" onclick="solveSudoku();" style="--color: #6eff3e;">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                SOLVE
+            </a>
+        </div>
+
+        <!-- <button id="solveButton" onclick="solveSudoku();">Solve</button> -->
+        <div id="grid-container">
+                <!-- 9x9 Grid is generated here -->
+        </div>
+        <div class="reset-button-container">
+            <a href="#" class="button" onclick="reset();" style="--color: #ff1867;">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                RESET
+            </a>
+        </div>
+        <!-- <button id="resetButton" onclick="reset();">Reset</button> -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
