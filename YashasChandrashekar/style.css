@@ -196,7 +196,8 @@ nav a {
 .project-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 0.7%;
+    row-gap: 10%;
+    gap: 1.7%;
     max-width: 200%;
     margin: auto;
 }
