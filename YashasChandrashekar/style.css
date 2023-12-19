@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    
+
 }
 
 
@@ -211,6 +211,10 @@ nav a {
     width: 450px;
     height: 300px;
 
+}
+
+.project-card:hover{
+    transform: scale(1.1);
 }
 
 .project-img {
