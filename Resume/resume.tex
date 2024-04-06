@@ -1,12 +1,26 @@
-\documentclass[a4paper,8pt]{article}
-\usepackage[scale=0.9, top=.4in, bottom=.4in]{geometry}
+\documentclass[a4paper,15pt]{article}
+\usepackage[left=0.6in,right=0.6in,top=0.6in,bottom=0.6in]{geometry}
 \usepackage{enumitem}
 \usepackage{parskip}
 \usepackage{titlesec}
 \usepackage[hidelinks]{hyperref}
 
 % Custom section formatting
-\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule]
+\titleformat{\section}{\large\bfseries}{\thesection}{0.5em}{}[\titlerule]
+
+% Compact itemize
+\setlist[itemize]{leftmargin=*}
+
+% Reduce spacing between sections
+\titlespacing{\section}{4pt}{*2}{*2}
+
+% Reduce spacing within lists
+\setlength{\parskip}{4pt}
+\setlength{\parsep}{4pt}
+\setlength{\itemsep}{4pt}
+
+% Reduce font size for content
+\renewcommand{\normalsize}{\fontsize{9pt}{11pt}\selectfont}
 
 \begin{document}
 
@@ -18,95 +32,75 @@
     +91 9739750742 | yashaschandrashek4r@gmail.com | \href{https://linkedin.com/in/yashaschandrashekar}{\underline{LinkedIn}} | \href{https://github.com/yashasc2k1}{\underline{GitHub}} | \href{https://yashasc2k1.github.io/YashasChandrashekar/}{\underline{Portfolio}} | \href{https://leetcode.com/YashasC/}{\underline{LeetCode}}
 \end{center}
 
-
-
 % Skills
-
 \section*{Skills}
 \textbf{Programming Languages:}
-Java, Python, C, JavaScript, PHP, HTML, CSS, \LaTeX \\
+Java, Golang, Python, C, JavaScript, PHP, HTML, CSS, \LaTeX \\
 \textbf{Web Technologies:}
-Apache2, Ngrok, Telebit\\
+Apache2, Ngrok, Telebit \\
 \textbf{Cloud Technologies:}
-AWS (Amazon Web Services), Firebase\\
+AWS (Amazon Web Services), Firebase, GCS \\
 \textbf{Databases:}
-MySQL, MariaDB\\
+MySQL, MongoDB, MariaDB \\
 \textbf{IDE:}
 IntelliJ IDEA, Atom, Visual Studio Code
-
-
 
 % Education
 \section*{Education}
 \textbf{Computer Science and Engineering} \\
 Reva University, Bengaluru, Karnataka \hfill August 2019 - August 2023 \\
-\textit{CGPA: 8.74 (First class with Distinction)} \\
-\textbf{Pre-University} \\
-Vidya Mandir Ind. PU College, Bengaluru, Karnataka \hfill June 2017 - March 2019 \\
-\textit{CGPA: 8.1 (First Class)} \\
-\textbf{High School Diploma} \\
-Sri Vidya Mandir Education Society, Bengaluru, Karnataka \hfill June 2004 - April 2017 \\
-\textit{CGPA: 8.5 (Distinction)}
+\textit{CGPA: 8.74 (First class with Distinction)}
 
-
+% Experience
+\section*{Experience}
+\textbf{Backend Developer Intern} \\
+Zino Technologies, Bengaluru, Karnataka \hfill January 2024 - Present
+\begin{itemize}
+    \item Integrated Slack into their low-code builder environment to improve team communication and collaboration.
+    \item Developed APIs in Golang to implement a chat system using Firebase for real-time messaging and MongoDB for data storage.
+    \item Contributed to the development of scalable backend services and microservices architecture using Golang, ensuring high performance and reliability.
+    \item Collaborated with cross-functional teams to design and implement new features, troubleshoot issues, and optimize existing systems.
+\end{itemize}
 
 % Personal Projects
 \section*{Personal Projects}
-\textbf{OpinionBox} \hfill 2023\\
-\textit{Technologies}: HTML, CSS, JavaScript, BootStrap, PHP, apache2, MariaDB, Linux, Telebit \\
-\textit{Description}: Developed a web platform enabling peers to anonymously share opinions and \\
-rate classmates on a scale of 1 to 10, fostering constructive feedback within the academic community.\\
-This website was hosted live for over 3 days, resulting in over 50 registered users.\\
+\textbf{OpinionBox} \hfill 2023 \\
+\textit{Technologies}: HTML, CSS, JavaScript, BootStrap, PHP, Apache2, MariaDB, Linux, Telebit \\
+\textit{Description}: Developed a web platform enabling peers to anonymously share opinions and rate classmates on a scale of 1 to 10, fostering constructive feedback within the academic community. This website was hosted live for over 3 days, resulting in over 50 registered users. \\
 \textit{\href{https://github.com/yashasc2k1/OpinionBox}{\underline{Project Link}}}
 
-\textbf{Sudoku Solver} \hfill 2023\\
+\textbf{Sudoku Solver} \hfill 2023 \\
 \textit{Technologies}: HTML, CSS, JavaScript \\
-\textit{Description}: Built a Sudoku Solver web app for interactive puzzle solving, automating cell-fill \\
-functionality upon user request.Demonstrated algorithmic problem-solving and user-centric design. \\
+\textit{Description}: Built a Sudoku Solver web app for interactive puzzle solving, automating cell-fill functionality upon user request. Demonstrated algorithmic problem-solving and user-centric design. \\
 \textit{\href{https://yashasc2k1.github.io/SudokuSolver}{\underline{Project Link}}}
 
-\textbf{Personal Portfolio} \hfill 2023\\
+\textbf{Personal Portfolio} \hfill 2023 \\
 \textit{Technologies}: HTML, CSS, JavaScript \\
-\textit{Description}: In-progress portfolio website development, showcasing skills and projects.\\
+\textit{Description}: In-progress portfolio website development, showcasing skills and projects. \\
 \textit{\href{https://yashasc2k1.github.io/YashasChandrashekar/}{\underline{Project Link}}}
-
-
 
 % Academic Projects
 \section*{Academic Projects}
-\textbf{Knee OsteoArthritis Detection using CNN}(Team Project) \hfill 2022-2023\\
+\textbf{Knee OsteoArthritis Detection using CNN} (Team Project) \hfill 2022-2023 \\
 \textit{Technologies}: Python, CNN, HTML, CSS, JavaScript \\
-\textit{Description}: Developed a CNN-based system for knee osteoarthritis prediction using X-ray images. \\
-The model evaluates the severity on a 5-scale metric when users upload their knee X-ray images. \\
-\textit{Recognized with the Best Outgoing Project award at Reva University} \\
-\textit{This project also secured a scholarship from KSCST}\\
-\textit{\href{https://github.com/yashasc2k1/KneeOsteoArthritis}{\underline{Project Link}}}       \textit{\href{https://www.ijraset.com/research-paper/knee-osteoarthritis-detection-and-severity-prediction}{\underline{Research Paper Link}}}
+\textit{Description}: Developed a CNN-based system for knee osteoarthritis prediction using X-ray images. The model evaluates the severity on a 5-scale metric when users upload their knee X-ray images. Recognized with the Best Outgoing Project award at Reva University. \\
+\textit{\href{https://github.com/yashasc2k1/KneeOsteoArthritis}{\underline{Project Link}}} \textit{\href{https://www.ijraset.com/research-paper/knee-osteoarthritis-detection-and-severity-prediction}{\underline{Research Paper Link}}}
 
-
-\textbf{Hospital DataBase} \hfill 2021\\
+\textbf{Hospital DataBase} \hfill 2021 \\
 \textit{Technologies}: HTML, CSS, PHP, MariaDB, MySQL, AWS, Linux, Apache2 \\
-\textit{Description}:  Created a streamlined Hospital Database Management system enabling user registration \\
-through a user-friendly form. Admins can easily access and view details of registered patients, enhancing the \\
-efficiency of healthcare data management.\\
+\textit{Description}: Created a streamlined Hospital Database Management system enabling user registration through a user-friendly form. Admins can easily access and view details of registered patients, enhancing the efficiency of healthcare data management. \\
 \textit{\href{https://github.com/yashasc2k1/webfilesrr}{\underline{Project Link}}}
 
-
+% Certifications
 \section*{Certifications}
-
-\textbf{Database Management System} \\
-NPTEL \hfill 2023 \\
-\textit{\href{https://internalapp.nptel.ac.in/noc/Ecertificate/?q=NPTEL23CS41S1422070903136655}{\underline{Certificate Link}}}
-
-\textbf{Learning Data Analytics} \\
-NPTEL \hfill 2022 \\
-\textit{\href{https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL22GE26S3394039710215318}{\underline{Certificate Link}}}
-
-
-
-
-\section*{Extracurriculars}
-\textbf{National Service Scheme (NSS)} \\
-Volunteer Head - 7 Days Camp \hfill April 2022 \\
-Active participant in Blood Donation Camp. \hfill May 2022
+\begin{tabular}{@{}ll@{}}
+    \textbf{Database Management System}                                                                                            &
+    \textbf{Learning Data Analytics}                                                                                                 \\
+    NPTEL, 2023                                                                                                                    &
+    NPTEL, 2022                                                                                                                      \\
+    \textit{\href{https://internalapp.nptel.ac.in/noc/Ecertificate/?q=NPTEL23CS41S1422070903136655}{\underline{Certificate Link}}} &
+    \textit{\href{https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL22GE26S3394039710215318}{\underline{Certificate Link}}}
+\end{tabular}
 
 \end{document}
+
