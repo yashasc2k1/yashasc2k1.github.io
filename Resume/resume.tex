@@ -9,18 +9,17 @@
 \titleformat{\section}{\large\bfseries}{\thesection}{0.5em}{}[\titlerule]
 
 % Compact itemize
-\setlist[itemize]{leftmargin=*}
+\setlist[itemize]{leftmargin=0.5em, itemsep=1pt, topsep=1pt}
 
 % Reduce spacing between sections
-\titlespacing{\section}{4pt}{*2}{*2}
+\titlespacing{\section}{4pt}{*1}{*1}
 
 % Reduce spacing within lists
-\setlength{\parskip}{4pt}
-\setlength{\parsep}{4pt}
-\setlength{\itemsep}{4pt}
-
+\setlength{\parskip}{2pt}
+\setlength{\parsep}{2pt}
+\setlength{\itemsep}{2pt}
 % Reduce font size for content
-\renewcommand{\normalsize}{\fontsize{9pt}{11pt}\selectfont}
+\renewcommand{\large}{\fontsize{11pt}{13pt}\selectfont}
 
 \begin{document}
 
@@ -28,22 +27,48 @@
 
 \begin{center}
     \textbf{\LARGE Yashas Chandrashekar} \\
-    \vspace{2mm}
+    \vspace{1mm}
     +91 9739750742 | yashaschandrashek4r@gmail.com | \href{https://linkedin.com/in/yashaschandrashekar}{\underline{LinkedIn}} | \href{https://github.com/yashasc2k1}{\underline{GitHub}} | \href{https://yashasc2k1.github.io/YashasChandrashekar/}{\underline{Portfolio}} | \href{https://leetcode.com/YashasC/}{\underline{LeetCode}}
 \end{center}
 
 % Skills
 \section*{Skills}
 \textbf{Programming Languages:}
-Java, Golang, Python, C, JavaScript, PHP, HTML, CSS, \LaTeX \\
-\textbf{Web Technologies:}
-Apache2, Ngrok, Telebit \\
+Golang, Java, Python, C, JavaScript, PHP, HTML, CSS \LaTeX \\
+% \textbf{Web Technologies:}
+% Apache2, Ngrok, Telebit \\
 \textbf{Cloud Technologies:}
 AWS (Amazon Web Services), Firebase, GCS \\
 \textbf{Databases:}
-MySQL, MongoDB, MariaDB \\
+MySQL, PostgreSQL, MongoDB, MariaDB\\
 \textbf{IDE:}
 IntelliJ IDEA, Atom, Visual Studio Code
+
+% Experience
+\section*{Experience}
+\textbf{Backend Developer} \\
+Zino Technologies, Bengaluru, Karnataka \hfill January 2024 - Present
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+    \item Developed and integrated industry-standard inventory modules into the low-code platform, improving scalability and usability for diverse business needs.
+    \item Enhanced platform's data management capabilities for low-code applications by integrating PostgreSQL and RDBMS databases.
+    \item Built an in-app chat system for seamless communication within applications.
+    \item Streamlined team collaboration by integrating Slack into workflows.
+    \item Implemented Razorpay integration, offering customizable payment solutions for platform applications.
+    \item Delivered real-time notifications through Firebase Cloud Messaging (FCM), ensuring timely updates for users.
+    \item Added Excel import/export and document conversion functionality using Golang's `excelize` package.
+
+    \item \textbf{AI-Driven Innovations:}
+    \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+        \item Designed AI-powered state machine workflows for dynamically generating workflows based on descriptive prompts.
+        \item Built AI-driven activity execution, allowing users to execute activities through natural language prompts.
+        \item Integrated VAPI voice agents for automated voice interactions, enhancing user engagement.
+        \item Leveraged AWS Textract and OpenAI for OCR capabilities, automating text extraction and processing.
+        \item Developed AI-based tools for data analysis, insights extraction, and comprehensive report generation.
+        \item Created an OpenAI-powered assistant for automating form-filling and activity identification based on user instructions.
+        \item Automated form generation via AI, enabling users to create functional forms using descriptive prompts.
+    \end{itemize}
+\end{itemize}
+
 
 % Education
 \section*{Education}
@@ -51,19 +76,9 @@ IntelliJ IDEA, Atom, Visual Studio Code
 Reva University, Bengaluru, Karnataka \hfill August 2019 - August 2023 \\
 \textit{CGPA: 8.74 (First class with Distinction)}
 
-% Experience
-\section*{Experience}
-\textbf{Backend Developer} \\
-Zino Technologies, Bengaluru, Karnataka \hfill January 2024 - Present
-\begin{itemize}
-    \item Integrated Slack into their low-code builder environment to improve team communication and collaboration.
-    \item Developed APIs in Golang to implement a chat system using Firebase for real-time messaging and MongoDB for data storage.
-    \item Contributed to the development of scalable backend services and microservices architecture using Golang, ensuring high performance and reliability.
-    \item Collaborated with cross-functional teams to design and implement new features, troubleshoot issues, and optimize existing systems.
-\end{itemize}
-
 % Personal Projects
 \section*{Personal Projects}
+
 \textbf{OpinionBox} \hfill 2023 \\
 \textit{Technologies}: HTML, CSS, JavaScript, BootStrap, PHP, Apache2, MariaDB, Linux, Telebit \\
 \textit{Description}: Developed a web platform enabling peers to anonymously share opinions and rate classmates on a scale of 1 to 10, fostering constructive feedback within the academic community. This website was hosted live for over 3 days, resulting in over 50 registered users. \\
@@ -74,24 +89,29 @@ Zino Technologies, Bengaluru, Karnataka \hfill January 2024 - Present
 \textit{Description}: Built a Sudoku Solver web app for interactive puzzle solving, automating cell-fill functionality upon user request. Demonstrated algorithmic problem-solving and user-centric design. \\
 \textit{\href{https://yashasc2k1.github.io/SudokuSolver}{\underline{Project Link}}}
 
-\textbf{Personal Portfolio} \hfill 2023 \\
-\textit{Technologies}: HTML, CSS, JavaScript \\
-\textit{Description}: In-progress portfolio website development, showcasing skills and projects. \\
-\textit{\href{https://yashasc2k1.github.io/YashasChandrashekar/}{\underline{Project Link}}}
-
-% Academic Projects
-\section*{Academic Projects}
 \textbf{Knee OsteoArthritis Detection using CNN} (Team Project) \hfill 2022-2023 \\
 \textit{Technologies}: Python, CNN, HTML, CSS, JavaScript \\
 \textit{Description}: Developed a CNN-based system for knee osteoarthritis prediction using X-ray images. The model evaluates the severity on a 5-scale metric when users upload their knee X-ray images. Recognized with the Best Outgoing Project award at Reva University. \\
 \textit{\href{https://github.com/yashasc2k1/KneeOsteoArthritis}{\underline{Project Link}}} \textit{\href{https://www.ijraset.com/research-paper/knee-osteoarthritis-detection-and-severity-prediction}{\underline{Research Paper Link}}}
 
-\textbf{Hospital DataBase} \hfill 2021 \\
-\textit{Technologies}: HTML, CSS, PHP, MariaDB, MySQL, AWS, Linux, Apache2 \\
-\textit{Description}: Created a streamlined Hospital Database Management system enabling user registration through a user-friendly form. Admins can easily access and view details of registered patients, enhancing the efficiency of healthcare data management. \\
-\textit{\href{https://github.com/yashasc2k1/webfilesrr}{\underline{Project Link}}}
+% \textbf{Personal Portfolio} \hfill 2023 \\
+% \textit{Technologies}: HTML, CSS, JavaScript \\
+% \textit{Description}: In-progress portfolio website development, showcasing skills and projects. \\
+% \textit{\href{https://yashasc2k1.github.io/YashasChandrashekar/}{\underline{Project Link}}}
 
-% Certifications
+% % Academic Projects
+% \section*{Academic Projects}
+% \textbf{Knee OsteoArthritis Detection using CNN} (Team Project) \hfill 2022-2023 \\
+% \textit{Technologies}: Python, CNN, HTML, CSS, JavaScript \\
+% \textit{Description}: Developed a CNN-based system for knee osteoarthritis prediction using X-ray images. The model evaluates the severity on a 5-scale metric when users upload their knee X-ray images. Recognized with the Best Outgoing Project award at Reva University. \\
+% \textit{\href{https://github.com/yashasc2k1/KneeOsteoArthritis}{\underline{Project Link}}} \textit{\href{https://www.ijraset.com/research-paper/knee-osteoarthritis-detection-and-severity-prediction}{\underline{Research Paper Link}}}
+
+% \textbf{Hospital DataBase} \hfill 2021 \\
+% \textit{Technologies}: HTML, CSS, PHP, MariaDB, MySQL, AWS, Linux, Apache2 \\
+% \textit{Description}: Created a streamlined Hospital Database Management system enabling user registration through a user-friendly form. Admins can easily access and view details of registered patients, enhancing the efficiency of healthcare data management. \\
+% \textit{\href{https://github.com/yashasc2k1/webfilesrr}{\underline{Project Link}}}
+
+Certifications
 \section*{Certifications}
 \begin{tabular}{@{}ll@{}}
     \textbf{Database Management System}                                                                                            &
