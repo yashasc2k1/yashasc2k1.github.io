@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.6.27)  2 JAN 2025 12:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.6.27)  2 JAN 2025 12:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -246,12 +246,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 31.
-
-Overfull \hbox (2.04901pt too wide) in paragraph at lines 53--54
-[]\OT1/cmr/m/n/10 Enhanced plat-form's data man-age-ment ca-pa-bil-i-ties for low-code ap-pli-ca-tions by in-te-grat-ing Post-greSQL and RDBMS
- []
-
-[1
+ [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./resume.aux)
  ***********
@@ -264,13 +259,13 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 Here is how much of TeX's memory you used:
  8626 strings out of 476139
  134710 string characters out of 5794454
- 1944975 words of memory out of 5000000
+ 1943975 words of memory out of 5000000
  30583 multiletter control sequences out of 15000+600000
  559973 words of font info for 42 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  69i,9n,79p,1271b,432s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </root/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (1 page, 81257 bytes).
+Output written on resume.pdf (1 page, 81194 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream

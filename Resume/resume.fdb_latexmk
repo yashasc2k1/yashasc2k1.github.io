@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1735802334.33332 "/home/yashas/Documents/personel/personal_github/yashasc2k1.github.io/Resume/resume.tex" "resume.pdf" "resume" 1735802334.58475 0
+["pdflatex"] 1735802633.48303 "/home/yashas/Documents/personel/personal_github/yashasc2k1.github.io/Resume/resume.tex" "resume.pdf" "resume" 1735802633.69723 0
   "/etc/texmf/web2c/texmf.cnf" 1719493001.59636 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/yashas/Documents/personel/personal_github/yashasc2k1.github.io/Resume/resume.tex" 1735802334.1706 7588 724784c1f9f8f9470e7114f91c95d2a2 ""
+  "/home/yashas/Documents/personel/personal_github/yashasc2k1.github.io/Resume/resume.tex" 1735802633.32264 7530 655b3da7df773af8fd6473cfe3d8139d ""
   "/root/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk" 1719493341.3444 11524 3d41d8fa56216db46fae9792d7685bf4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -55,9 +55,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1719493004.85728 128028 f533b797fba58d231669ea19e894e23e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1719493021 6851218 0fceb9ac56c81c412a967b3491e06b62 ""
-  "resume.aux" 1735802334.56361 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
-  "resume.out" 1735802334.55361 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "resume.tex" 1735802334.1706 7588 724784c1f9f8f9470e7114f91c95d2a2 ""
+  "resume.aux" 1735802633.67664 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
+  "resume.out" 1735802633.66764 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "resume.tex" 1735802633.32264 7530 655b3da7df773af8fd6473cfe3d8139d ""
   (generated)
   "resume.aux"
   "resume.log"
